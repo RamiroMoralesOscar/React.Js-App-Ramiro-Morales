@@ -42,6 +42,11 @@
 .descripcion{
     font-size: 0.9em;
   }
+
+  .stock{
+    font-size: 1em;
+    color: red;
+  }
   
 
  

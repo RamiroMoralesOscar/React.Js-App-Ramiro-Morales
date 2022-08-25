@@ -4,9 +4,9 @@ const Contador = () => {
   const [numero, setCont] = useState(0);
 
   function contar(operador) {
-    if (operador == "+") {
+    if (operador == "+" && numero < 10) {
       setCont(numero + 1);
-    } else {
+    } else if (operador == "-") {
       setCont(numero - 1);
     }
   }
